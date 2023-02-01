@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;   
+}
+
+body {  
+    background: #B0BFC2;
+    color: #444;
+}
+
+#container {   
+    background: white;
+    width: 600px;
+    overflow: auto
+    
+    
+    ;
+}
+
+header {
+    background: #D36832;
+    color: #FFF;
+    padding: 20px;    
+    border-bottom: 5px solid #387A9B;
+}
+
+aside {    
+    padding: 10px;
+    float: left;
+    width: 150px;
+}
+
+section {      
+    padding: 0px 10px;
+    float: left;
+    width: calc( 100% - 150px );
+}
+
+footer {        
+    background: #387A9B;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: right;
+    clear: both;    
+}
+
+ /************ el resto no es necesario modificarlo *************/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+
+nav li {
+    padding: 5px;
+    text-align: right;
+}
+
+nav a {
+    color: #175B7D;
+}
+
+nav a:hover,
+nav a:active {
+    color: #fff;
+    background: #175B7D;
+}
+
+article {
+    margin: 20px 0px 50px 0px;
+}
+
+article  h2 {
+    margin: 10px 0px;
+    color: #B23B00;
+}
+
+article p {
+    line-height: 1.4em;
+}
