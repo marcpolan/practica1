@@ -12,10 +12,7 @@ body {
 #container {   
     background: white;
     width: 600px;
-    overflow: auto
-    
-    
-    ;
+    overflow: auto;
 }
 
 header {
@@ -79,4 +76,8 @@ article  h2 {
 
 article p {
     line-height: 1.4em;
+}
+
+h1:hover {
+    color: black;
 }
